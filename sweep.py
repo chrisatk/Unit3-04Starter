@@ -7,3 +7,11 @@ def validate( block_data ):
   # Skip bombs, send an error on invalid input, verify numbers
 
   return
+
+
+grid = [
+  [-1,1,0],
+  [1,1,0],
+  [0,0,0]
+]
+print validate(grid)
